@@ -1,0 +1,22 @@
+/* 0001 */
+a {
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+}
+/* 0003 */
+div ul a{
+    color: green;
+}
+/* 0201 */
+#mydiv #myul a{
+    color: gray;
+}
+/* 0210 */
+#mydiv #myul .mylink{
+    color: orange;
+}
+/* 0211 */
+#mydiv #myul a:visited{
+    color: blue;
+}

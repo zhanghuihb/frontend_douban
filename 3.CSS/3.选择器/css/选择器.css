@@ -1,0 +1,56 @@
+/* 通配符选择器 */
+/* * {
+    color: red;
+} */
+
+/* 属性选择器-选中所有具有href属性的元素 */
+/* [href] {
+    color: red;
+} */
+[href="https://www.sina.com"] {
+    color: red;
+}
+[href="https://baidu.com"] {
+    color: blue;
+}
+
+
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+/* 选中鼠标悬停时a元素 */
+a:hover{
+    color: orange;
+}
+/* 鼠标按下时的a元素 */
+a:active{
+    color: greenyellow;
+}
+
+span::before {
+    content: "《";
+    color: red;
+}
+
+span::after {
+    content: "》";
+    color: red;
+}
+
+p{
+    background: orchid;
+    text-indent: 2em;
+    line-height: 2em;
+}
+p.red {
+    color: red;
+}
+
+.yellow li {
+    color: green;
+}
