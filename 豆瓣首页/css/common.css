@@ -16,3 +16,27 @@
     display: block;
     clear: both;
 }
+
+.dialog-right {
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #00B51D;
+    position: absolute;
+    top: 3px;
+    right: -14px;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    transform: rotate(90deg);
+}
+
+.dialog-right-kx {
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #edf4ed;
+    position: absolute;
+    top: 3px;
+    right: -13px;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    transform: rotate(90deg);
+}

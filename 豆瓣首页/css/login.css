@@ -2,8 +2,59 @@
 @import "common.css";
 
 .login {
-    width: 300px;
-    height: 300px;
-    background: lightblue;
-    padding: 5px;
+    width: 280px;
+    height: 280px;
+    /* background: lightblue; */
+    padding: 10px;
 }
+
+.login .start-icon-switch-p{
+    position: relative;
+}
+
+.login .quick-icon-switch-p{
+    position: relative;
+}
+
+.login .start-icon-switch-p img, .login .quick-icon-switch-p img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.login .start-icon-switch-p .start-text, .login .quick-icon-switch-p .quick-text, .login .quick-icon-switch-p .quick-icon-switch{
+    display: none;
+}
+
+.login .start-icon-switch-p .start-text{
+    width: 90px;
+    height: 22px;
+    border: 1px solid #00B51D;
+    border-radius: 3px;
+    box-sizing: border-box;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.login .quick-icon-switch-p .quick-text{
+    width: 70px;
+    height: 22px;
+    border: 1px solid #00B51D;
+    border-radius: 3px;
+    box-sizing: border-box;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.login .start-icon-switch-p:hover .start-text{
+    display: block;
+}
+
